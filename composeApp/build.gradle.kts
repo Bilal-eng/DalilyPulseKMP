@@ -66,5 +66,7 @@ android {
 
 dependencies {
     debugImplementation(libs.compose.uiTooling)
+    implementation(libs.coil.compose)
+    implementation(libs.compose.material.icons)
 }
 
