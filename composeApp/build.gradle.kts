@@ -68,5 +68,6 @@ dependencies {
     debugImplementation(libs.compose.uiTooling)
     implementation(libs.coil.compose)
     implementation(libs.compose.material.icons)
+    implementation(libs.androidx.navigation.compose)
 }
 

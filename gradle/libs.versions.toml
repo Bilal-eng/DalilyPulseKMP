@@ -18,6 +18,7 @@ lifecycleViewmodelKtx = "2.6.2"
 kotlinxCoroutinesCore = "1.7.3"
 coilCompose = "2.5.0"
 compose-material = "1.7.8"
+navigationCompose = "2.7.5"
 
 
 [libraries]
@@ -43,6 +44,7 @@ compose-uiToolingPreview = { module = "org.jetbrains.compose.ui:ui-tooling-previ
 
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 compose-material-icons = { group = "androidx.compose.material", name = "material-icons-core", version.ref = "compose-material" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 
 
 [plugins]
