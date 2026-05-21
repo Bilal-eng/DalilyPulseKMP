@@ -1,8 +1,10 @@
+import org.gradle.kotlin.dsl.version
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
+    id("co.touchlab.skie") version "0.10.12"
     kotlin("plugin.serialization") version "1.9.20"
 }
 
