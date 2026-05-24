@@ -9,5 +9,5 @@ val articlesModule = module {
 
     single { ArticlesService(get()) }
     single { ArticlesUseCase(get()) }
-    single { ArticlesViewModel() }
+    single { ArticlesViewModel(get()) }
 }
